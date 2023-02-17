@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(36, 92, 109);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+    /*Uso del "display grid" para division de areas entro los containers del lado izquierdo y derecho*/
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    background: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.container .lado_izquierdo{
+    position: relative;
+    background: #16303b;
+    padding: 40px;
+}
+
+.container .lado_derecho{
+    position: relative;
+    background: #fff;
+    padding: 40px;
+}
