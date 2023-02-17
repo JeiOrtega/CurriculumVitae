@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
@@ -29,6 +30,44 @@ body{
     position: relative;
     background: #16303b;
     padding: 40px;
+}
+
+.datos_personales{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.datos_personales .foto_perfil{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.datos_personales .foto_perfil img{
+position: absolute;
+top: 0;
+bottom: 0;
+width: 100%;
+height: 100%;
+}
+
+.datos_personales h2{
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.datos_personales h2 span{
+    font-size:  0.7em;
+    font-weight: 200;
 }
 
 .container .lado_derecho{
