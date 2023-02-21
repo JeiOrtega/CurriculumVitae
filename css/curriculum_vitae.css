@@ -104,6 +104,11 @@ li{
     font-weight: 300;
 } 
 
+.informacion_contacto ul li .texto a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
 .titulo_educacion{
     color: whitesmoke;
     text-transform: uppercase;
